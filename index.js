@@ -1,15 +1,13 @@
 'use strict';
 
-module.exports = (pluginContext) = > {
-    const shell = pluginContext.shell;
+module.exports = (context) => {
+    const shell = context.shell;
 
     function search(query, res) {
         const query_trim = query.trim();
-        
         if (query_trim.length == 0) {
             return;
         }
-        
         res.add({
             id: query_trim,
             payload: 'open',
@@ -25,7 +23,5 @@ module.exports = (pluginContext) = > {
         shell.openExternal(`https: //developers.google.com/s/results/?q=${id}}`);
     }
 
-    return {
-        search, execute
-    };
+    return {search, execute};
 };

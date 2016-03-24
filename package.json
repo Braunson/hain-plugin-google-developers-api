@@ -1,6 +1,6 @@
 {
   "name": "hain-plugin-google-developers-api",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Hain plugin to search in the Google Developers API",
   "main": "index.js",
   "scripts": {},
@@ -18,9 +18,9 @@
   },
   "homepage": "https://github.com/Braunson/hain-plugin-google-developers-api.git",
   "hain": {
-    "prefix": "/gdev",
-    "usage": "type /gdev to search in the Google Developers API",
+    "prefix": "/devg",
+    "usage": "type /devg to search in the Google Developers API",
     "icon": "/icon.png",
-    "redirect": "/gdev "
+    "redirect": "/devg "
   }
 }
