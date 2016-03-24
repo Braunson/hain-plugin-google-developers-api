@@ -1,25 +1,26 @@
-
 {
-	"name": "hain-plugin-google-developers-api",
-	"version": "0.0.1",
-	"description": "Hain plugin to search in the Google Developers API",
-	"main": "index.js",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/Braunson/hain-plugin-google-developers-api.git"
-	},
-	"author": "Braunson Yager",
-	"license": "MIT",
-	"keywords": [
-		"hain0",
-		"google",
-		"developers"
-	],
-	"homepage": "https://github.com/Braunson/hain-plugin-google-developers-api.git",
-	"hain": {
-		"prefix": "/gdev",
-		"usage": "type /gdev to search in the Google Developers API",
-		"icon": "/icon.png",
-		"redirect": "/gdev "
-	}
+  "name": "hain-plugin-google-developers-api",
+  "version": "0.0.1",
+  "description": "Hain plugin to search in the Google Developers API",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Braunson/hain-plugin-google-developers-api.git"
+  },
+  "author": "Braunson Yager",
+  "license": "MIT",
+  "keywords": [
+    "hain0"
+  ],
+  "bugs": {
+    "url": "https://github.com/Braunson/hain-plugin-google-developers-api/issues"
+  },
+  "homepage": "https://github.com/Braunson/hain-plugin-google-developers-api.git",
+  "hain": {
+    "prefix": "/gdev",
+    "usage": "type /gdev to search in the Google Developers API",
+    "icon": "/icon.png",
+    "redirect": "/gdev "
+  }
 }
