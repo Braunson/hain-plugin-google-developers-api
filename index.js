@@ -20,7 +20,7 @@ module.exports = (context) => {
         if (payload !== 'open') {
             return;
         }
-        shell.openExternal(`https: //developers.google.com/s/results/?q=${id}}`);
+        shell.openExternal(`https://developers.google.com/s/results/?q=${id}`);
     }
 
     return {search, execute};
